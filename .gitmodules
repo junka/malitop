@@ -1,0 +1,6 @@
+[submodule "thirdparty/libGPUCounters"]
+	path = thirdparty/libGPUCounters
+	url = https://github.com/ARM-software/libGPUCounters
+[submodule "thirdparty/ncurses"]
+	path = thirdparty/ncurses
+	url = https://github.com/mirror/ncurses.git
