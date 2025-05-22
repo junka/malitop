@@ -1,10 +1,21 @@
 # malitop
 
 
-Collect metrics via mali gpu registers from:
-https://github.com/ARM-software/libGPUCounters
+Collect metrics via mali gpu registers from: https://github.com/ARM-software/libGPUCounters
 
 
+## build
+```
+git clone https://github.com/junka/malitop.git
+cd malitop
+git submodule update --init
+mkdir build
+cd build
+cmake .. -DCMAKE_TOOLCHAIN_FILE=armtoolchain.cmake
+make
+```
+
+## sample output
 ```
 ------------------------------------------------------------
  GPU Device 0: Mali-G78AE, Arch: valhall
