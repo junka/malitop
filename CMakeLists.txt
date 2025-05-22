@@ -41,6 +41,7 @@ target_link_libraries(malitop
     PRIVATE ${CMAKE_BINARY_DIR}/thirdparty/libGPUCounters/hwcpipe/libhwcpipe.a
             ${CMAKE_BINARY_DIR}/thirdparty/libGPUCounters/backend/device/libdevice.a
             ${CMAKE_BINARY_DIR}/thirdparty/ncurses/lib/libncurses.a
+            ${CMAKE_BINARY_DIR}/thirdparty/ncurses/lib/libtinfo.a
 )
 
 target_compile_options(malitop
